@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    body{
+        background-image: url(https://images.pexels.com/photos/1563355/pexels-photo-1563355.jpeg);
+        background-size: cover;
+    }
+    table{
+        margin:auto;
+        margin-top: 15%;
+    }
+
+    #btn{
+        margin-left: 45%;
+        margin-top: 10px;
+        color: #100b8e;
+    }
+    #btn:hover{
+        background-color: #100b8e;
+        color: antiquewhite;
+        font-style: bold;
+        transition-duration: 300ms;
+        padding:5px 10px;
+        /* padding-right: 10px; */
+    }
+    #register{
+        text-decoration: none;
+        background-color: aliceblue;
+        color: #100b8e;
+    }
+    #register:hover{
+        background-color: #100b8e;
+        color: antiquewhite;
+        font-style: bold;
+        transition-duration: 300ms;
+        padding:5px 10px;
+        border: 1px solid antiquewhite;
+        /* padding-right: 10px; */
+    }
+
+</style>
+<body>
+    <table>
+        <tr>
+            <td>
+             <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#100b8e}</style><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg>
+            </td>
+        </tr>
+
+         <tr>
+             <td>
+                <input type="email" placeholder="Email">
+            </td>
+        </tr>
+
+        <tr>
+         <td>
+           <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill: #100b8e}</style><path     d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/></svg>
+         </td>
+        </tr>
+        <tr><td>
+            <input type="password" placeholder="Password">
+        </td>
+        </tr>
+    </table>
+        <input type="submit" value="Login" id="btn">
+        <a href="Register.html" id="register">Register</a>
+</body>
+</html>
